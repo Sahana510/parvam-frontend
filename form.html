@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form>
+        <label for="FirstName">First Name:</label>
+        <input type="text" id="FirstName" placeholder="Enter First Name" />
+        <br/><br/>
+        
+        <label for="LastName">Last Name:</label>
+        <input type="text" id="LastName" placeholder="Enter Last Name" />
+        <br/><br/>
+
+        <label for="Email">Last Name:</label>
+        <input type="text" id="Email" placeholder="Enter Email Address" />
+        <br/><br/>
+
+        <label for="Password">Password :</label>
+        <input type="Password" id="Password" />
+        <br /><br />
+
+        <label>Gender :</label><br>
+        <input type="radio" value="Male" name="gender" checked > Male
+        <input type="radio" value="Female" name="gender" checked > Female
+        <input type="radio" value="Other" name="gender" checked > Other
+        <br /><br />
+
+        <label>Age :</label>
+        <input type="text" id="Age" />
+        <br /><br />
+
+        <label>Preferences :</label>
+        <input type="checkbox" value="Acrylic Painting" name="Preferences" checked > Acrylic Painting
+        <input type="checkbox" value="Oil Painting" name="Preferences" checked > Oil Painting
+        <input type="checkbox" value="Water Color Painting" name="Preferences" checked > Water Color Painting
+        <br /><br />
+
+        <label>Select State :</label>
+
+        <select name="state" id="state">
+            <option value="karnataka">karnataka</option>
+            <option value="TamilNadu">TamilNadu</option>
+            <option value="Shimoga">Shimoga</option>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Bangalore">Bangalore</option>
+        </select>
+        <br /><br />
+
+        <label>Bio</label>
+        <textarea cols="80" rows="5" placeholder="Share few lines about yourself..." value="share few lines about yourself..." required></textarea>
+        <br /><br />
+        <button onclick="Document.location='geeks1.html'">RESET</button>
+        <button onclick="Document.location='geeks1.html'">SUBMIT</button>
+     </form>
+</body>
+</html>
